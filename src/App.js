@@ -1,13 +1,13 @@
+import React from 'react';
 
 import './App.css';
-import Man from './components/Man';
+import Navbar from './Nav';
 
 function App() {
   return (
-    <div class="App">
-     <Man/>
-    </div>
+    <Navbar/>
   );
+
 }
 
 export default App;
