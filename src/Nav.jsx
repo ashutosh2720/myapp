@@ -41,7 +41,7 @@ function Navbar() {
 
       <div className="items">
         <div className="item item1">
-          <img src="https://i.pinimg.com/736x/57/4e/a4/574ea4d237a775d63687e2b8ae13661d--mens-fashion.jpg" alt="" />
+          <img src="https://th.bing.com/th/id/R.109baf9854f45f150e47545e72c7ddea?rik=q%2bORTjYHZML6Lg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-SU3i7C0fIUk%2fUQp2CPnun1I%2fAAAAAAAAAOQ%2fM3g9BGeLLHo%2fs1600%2fLee%2bMin%2bHo%2bPerfect%2bPersonality%2bWallpaper.jpg&ehk=h3RUSgriTYn75nBq8LDg%2b8KPJQCf5h2AXcI%2fQUgpMac%3d&risl=&pid=ImgRaw&r=0" alt="" />
         </div>
         <div className="item item1">
           <img src="https://www.bing.com/th?id=OIP.thc5Z95GJp3R2Q5822FGywHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" alt="" />
@@ -56,6 +56,23 @@ function Navbar() {
           <img src="https://th.bing.com/th/id/OIP.-3GBO7ELcxPfqZxMo6wWpgAAAA?pid=ImgDet&w=300&h=400&rs=1" alt="" />
         </div>
         
+      </div>
+
+      <div className="jacket">
+        <div className="jack mens-jacket">
+          <img src="https://th.bing.com/th/id/R.109baf9854f45f150e47545e72c7ddea?rik=q%2bORTjYHZML6Lg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-SU3i7C0fIUk%2fUQp2CPnun1I%2fAAAAAAAAAOQ%2fM3g9BGeLLHo%2fs1600%2fLee%2bMin%2bHo%2bPerfect%2bPersonality%2bWallpaper.jpg&ehk=h3RUSgriTYn75nBq8LDg%2b8KPJQCf5h2AXcI%2fQUgpMac%3d&risl=&pid=ImgRaw&r=0" alt="" />
+        </div>
+        <div className="jack mens-jacket-item">
+          <div className="img1">
+           <img src="https://i.pinimg.com/originals/e5/6b/79/e56b799b365e63c41041feb38fb7e965.jpg" alt="" />
+          </div>
+          <div className="img1">
+           <img src="https://i.pinimg.com/originals/e5/6b/79/e56b799b365e63c41041feb38fb7e965.jpg" alt="" />
+          </div>
+          <div className="img1">
+           <img src="https://i.pinimg.com/originals/e5/6b/79/e56b799b365e63c41041feb38fb7e965.jpg" alt="" />
+          </div>
+        </div>
       </div>
 
     </>

@@ -93,3 +93,27 @@ button:hover{
   height: 300px;
   width: 250px;
 }
+.jacket{
+  background-color: rgb(214, 234, 250);
+  margin-top: 80px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+.jacket .mens-jacket  img{
+  height: 700px;
+  width: 500px;
+
+}
+.jacket .mens-jacket-item  img{
+  height: 300px;
+  width: 300px;
+}
+
+ .mens-jacket-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
