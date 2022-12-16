@@ -1,17 +1,43 @@
-.slider img{
- width: 100vw;
- height:70vh;
- margin-top: 5px;
+body {
+    background-color: rgba(220, 237, 245, 1);
 }
+
+.slider img {
+    width: 100vw;
+    height: 70vh;
+    margin-top: 5px;
+}
+
+.ind-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-img {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 600px) {
 
-    html{
+    html {
         font-size: 10px;
     }
 
- .slider img{
-    width: 100vw;
-    height:30vh;
- }
-  }
+    .slider img {
+        width: 100vw;
+        height: 30vh;
+    }
+}
