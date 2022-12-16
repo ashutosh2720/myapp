@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="about">
 
                     <ul>
-                        <li><h2>About</h2></li><hr />
+                        <li><h2>About</h2></li>
                         <li>Contact Us</li>
                         <li>About Us</li>
                         <li>Careers Us</li>
@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
                 <div className="help">
                     <ul>
-                        <li><h2>Help</h2></li><hr />
+                        <li><h2>Help</h2></li>
                         <li>Payment</li>
                         <li>Shipping</li>
                         <li>Cancellation & Return</li>
@@ -28,7 +28,7 @@ export default function Footer() {
                 </div>
                 <div className="policy">
                     <ul>
-                        <li><h2>Policy</h2></li><hr />
+                        <li><h2>Policy</h2></li>
                         <li>Return Policy</li>
                         <li>Terms & Use</li>
                         <li>Privecy</li>
@@ -37,7 +37,7 @@ export default function Footer() {
                 </div>
                 <div className="social">
                     <ul>
-                        <li><h2>Social</h2></li><hr />
+                        <li><h2>Social</h2></li>
                         <li>Facebook</li>
                         <li>Twitter</li>
                         <li>Instagram</li>
