@@ -8,6 +8,20 @@ body {
     margin-top: 5px;
 }
 
+.deal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .ind-item {
     display: flex;
     flex-direction: column;
@@ -21,6 +35,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.product-img img {
+    width: 200px;
 }
 
 .product-img:hover {
@@ -40,4 +58,9 @@ body {
         width: 100vw;
         height: 30vh;
     }
+
+    .product-img {
+        min-height: auto;
+    }
+
 }
