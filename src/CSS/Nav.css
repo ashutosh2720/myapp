@@ -3,9 +3,10 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items:center;
-    box-shadow: 20px 40px 200px 80px rgb(144, 219, 222);
-    background-color:rgba(220, 237, 245, 0.543);
-    padding:0px;
+    background-color:rgba(220, 237, 245, 1);
+    padding: 0px;
+    position: sticky;
+    top: 0;
   }
 
   .nav-left{
@@ -19,7 +20,7 @@ nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .nav-left h3{
@@ -40,6 +41,7 @@ nav{
 
   .nav-mid img{
     width: 10rem;
+    margin-left:-20px;
   }
   .nav-mid h2{
     display: inline;
@@ -47,7 +49,7 @@ nav{
   }
 
   .nav-right{
-    padding-right: 40px;
+    padding-right: 20px;
   }
 
   .nav-right .icons{
@@ -62,7 +64,7 @@ nav{
   @media screen and (max-width: 600px) {
 
     html{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .nav-right .icons{

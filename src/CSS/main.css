@@ -1,0 +1,17 @@
+.slider img{
+ width: 100vw;
+ height:70vh;
+ margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+    html{
+        font-size: 10px;
+    }
+
+ .slider img{
+    width: 100vw;
+    height:30vh;
+ }
+  }
