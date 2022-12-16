@@ -2,6 +2,7 @@ import Shirt from '../Images/shirt.png'
 import Jacket from '../Images/jacket.png'
 import Bag from '../Images/bag.png'
 import Boot from '../Images/boot1.png'
+import Watch from '../Images/watch.png'
 
 const Items = [
     {
@@ -12,26 +13,34 @@ const Items = [
         company: "lous philips"
     },
     {
-        id: 1,
+        id: 2,
         img: Shirt,
         title: "mens T shirt",
         price: "$24",
         company: "sparky"
     },
     {
-        id: 1,
+        id: 3,
         img: Boot,
         title: "Mens boot",
         price: "$34",
         company: "bata"
     },
     {
-        id: 1,
+        id: 4,
         img: Bag,
         title: "Bag",
         price: "$64",
         company: "WildCraft"
     },
+    {
+        id: 5,
+        img: Watch,
+        title: "Watch",
+        price: "$64",
+        company: "Rolex"
+    },
+
 
 ]
 
