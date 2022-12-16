@@ -1,0 +1,43 @@
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    box-shadow: 20px 40px 200px 80px rgb(144, 219, 222);
+    background-color:rgba(220, 237, 245, 0.543);
+    padding:0px;
+  }
+
+  .nav-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .img-name{
+    position: absolute;
+    left: 0;
+  }
+
+  .nav-left img{
+    height: 30px;
+  }
+  .nav-right img{
+    height:20px;
+    cursor: pointer;
+  }
+  .nav-right{
+    display: flex;
+    gap: 30px;
+  }
+  .nav-mid img{
+    height: 90px;
+  }
+  .nav-mid h2{
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .nav-left h3{
+    display: inline;
+  }

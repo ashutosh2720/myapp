@@ -1,11 +1,14 @@
 import React from 'react';
-
-import './App.css';
+import '../CSS/App.css'
 import Navbar from './Nav';
+import Main from './Main';
 
 function App() {
   return (
-    <Navbar/>
+    <>
+      <Navbar />
+      {/* <Main /> */}
+    </>
   );
 
 }
