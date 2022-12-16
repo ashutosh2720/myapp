@@ -14,7 +14,7 @@ const Items = [
     {
         id: 1,
         img: Shirt,
-        title: "mens jeans",
+        title: "mens T shirt",
         price: "$24",
         company: "sparky"
     },
