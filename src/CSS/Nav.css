@@ -8,6 +8,7 @@ nav {
   position: sticky;
   top: 0;
   border-bottom: 2px solid black;
+  z-index: 999;
 }
 
 .nav-left {

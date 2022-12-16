@@ -11,7 +11,7 @@ const Items = [
         img: Jacket,
         title: "Mens Jacket",
         price: "$54",
-        company: "lous philips"
+        company: "Louis Philippe"
     },
     {
         id: 2,
@@ -46,7 +46,7 @@ const Items = [
         img: Frock,
         title: "Wedding Day",
         price: "$64",
-        company: "Rolex"
+        company: "Zara"
     },
     {
         id: 4,
@@ -67,14 +67,14 @@ const Items = [
         img: Frock,
         title: "Wedding Day",
         price: "$64",
-        company: "Rolex"
+        company: "Zara"
     },
     {
         id: 1,
         img: Jacket,
         title: "Mens Jacket",
         price: "$54",
-        company: "lous philips"
+        company: "Louis Philippe"
     },
 
 
