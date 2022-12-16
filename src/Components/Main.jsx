@@ -34,7 +34,7 @@ export default function Main() {
 
             <div className="collection">
                 <div className="Mens-jacket col">
-                    <img src="https://pngimg.com/uploads/leather_jacket/leather_jacket_PNG33.png" alt="" />
+                    <img src="https://www.pngarts.com/files/3/Men-Jacket-PNG-Free-Download.png" alt="" />
                     <h2>Mens jacket</h2>
                 </div>
                 <div className="Womens-saree col">
