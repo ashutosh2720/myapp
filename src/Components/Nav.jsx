@@ -1,10 +1,12 @@
 import React from "react";
 import logo from '../Images/ecom2.png'
 import '../CSS/Nav.css';
+import Menu from "./Menu";
 
 function Navbar() {
   return (
     <>
+      <Menu />
       <nav>
         <div className="nav-left">
           <div className="img-name">
@@ -36,7 +38,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-     
+
     </>
 
   );

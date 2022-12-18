@@ -1,0 +1,20 @@
+.main-menu {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+.menu-left {
+    width: 400px;
+    height: 100vh;
+    background-color: white;
+}
+
+@media screen and (max-width:600px) {
+    .menu-left {
+        width: 250px;
+    }
+}
