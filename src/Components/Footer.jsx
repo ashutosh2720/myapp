@@ -48,7 +48,7 @@ export default function Footer() {
 
             </div>
             <div className="copy">
-                <h4> &#169;Copyright ANIX CART 2022</h4>
+                <h4> &#169;Copyright  2022 ANIX CART</h4>
             </div>
         </>
     )

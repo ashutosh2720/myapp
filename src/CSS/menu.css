@@ -8,10 +8,54 @@
 }
 
 .menu-left {
-    width: 400px;
+    width: 300px;
     height: 100vh;
     background-color: white;
+
 }
+
+.menu-left ul {
+    padding: 20px;
+}
+
+.menu-left ul li {
+    padding: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.menu-left ul h2 {
+    display: inline;
+    background-color: rgba(4, 181, 199, 25);
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.menu-left .welcome h1 {
+    background-color: rgba(4, 181, 199, 25);
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.welcome .user {
+    font-size: 2.5rem;
+}
+
+.order {
+    padding-top: 20px;
+}
+
 
 @media screen and (max-width:600px) {
     .menu-left {
