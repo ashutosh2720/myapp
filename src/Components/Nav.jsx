@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from '../Images/ecom2.png'
 import '../CSS/Nav.css';
 import Menu from "./Menu";
+import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
 
 function Navbar() {
 
@@ -33,7 +34,12 @@ function Navbar() {
 
         <div className="nav-right">
           <div className="icons">
+
+            <div className="img4">
+              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828503.png" alt="" />
+            </div>
             <div className="img1">
+
               <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png" alt="" />
             </div>
             <div className="img4">

@@ -9,10 +9,10 @@ export default function Footer() {
 
                     <ul>
                         <li><h2>About</h2></li>
-                        <li>Contact Us</li>
-                        <li>About Us</li>
-                        <li>Careers Us</li>
-                        <li>Contact Us</li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Careers Us</a></li>
+                        <li><a href="">Contact Us</a></li>
 
 
                     </ul>
@@ -20,28 +20,28 @@ export default function Footer() {
                 <div className="help">
                     <ul>
                         <li><h2>Help</h2></li>
-                        <li>Payment</li>
-                        <li>Shipping</li>
-                        <li>Cancellation & Return</li>
-                        <li>Return</li>
+                        <li><a href="">Payment</a></li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">Cancellation & Return</a></li>
+                        <li><a href="">Return</a></li>
                     </ul>
                 </div>
                 <div className="policy">
                     <ul>
                         <li><h2>Policy</h2></li>
-                        <li>Return Policy</li>
-                        <li>Terms & Use</li>
-                        <li>Privecy</li>
-                        <li>Security</li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Terms & Use</a></li>
+                        <li><a href="">Privecy</a></li>
+                        <li><a href="">Security</a></li>
                     </ul>
                 </div>
                 <div className="social">
                     <ul>
                         <li><h2>Social</h2></li>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>Instagram</li>
-                        <li>Github</li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Github</a></li>
                     </ul>
                 </div>
 
