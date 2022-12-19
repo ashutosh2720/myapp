@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './Nav';
 import Main from './Main';
 import Footer from './Footer';
+import Sign from './Sign'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Main />
       <Footer />
+      {/* <Sign /> */}
     </>
   );
 

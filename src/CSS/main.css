@@ -20,6 +20,7 @@ body::-webkit-scrollbar {
 
 
 .items {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +36,8 @@ body::-webkit-scrollbar {
 }
 
 .product-img {
+    background-color: rgba(4, 181, 199, 19);
+    border-radius: 20px;
     min-height: 300px;
     display: flex;
     justify-content: center;
@@ -43,6 +46,7 @@ body::-webkit-scrollbar {
 
 .product-img img {
     width: 200px;
+
 }
 
 .product-img:hover {
@@ -52,11 +56,12 @@ body::-webkit-scrollbar {
 }
 
 .collection {
+    background-color: rgba(4, 181, 199, 19);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
     gap: 30px;
 }
 
@@ -64,15 +69,19 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background-color: rgba(4, 181, 199, 19);
-
+    padding: 1px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: white
 }
 
 .collection img {
-    width: 220px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .cole {

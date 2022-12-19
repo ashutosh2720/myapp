@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
 
 .footer {
-
-    margin-top: 20px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 200px;
+    padding-bottom: 100px;
     background-color: rgba(4, 181, 199, 25);
     display: flex;
     flex-direction: row;
@@ -14,7 +15,7 @@
 
 .footer ul li {
     list-style: none;
-    padding: 10px;
+    padding: 5px;
 
 }
 
@@ -31,8 +32,15 @@
 }
 
 .copy {
+    background-color: rgba(4, 181, 199, 25);
+    margin-top: 3px;
+    margin-bottom: 20px;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.copy img {
+    width: 90px;
 }

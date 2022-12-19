@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Playfair+Display:ital@1&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Playfair Display', serif;
   color: rgb(29, 14, 38);
 
 }
