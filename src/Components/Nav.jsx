@@ -1,15 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from '../Images/ecom2.png'
 import '../CSS/Nav.css';
 import Menu from "./Menu";
 
 function Navbar() {
+
+  const [showMenu, setShowMenu] = useState(false);
+
+  const menuFunction = () => {
+    setShowMenu(!showMenu)
+  }
+
   return (
     <>
-      <Menu />
+      {
+        showMenu
+        &&
+        <div onClick={menuFunction}>
+          <Menu />
+        </div>
+      }
       <nav>
         <div className="nav-left">
-          <div className="img-name">
+          <div className="img-name" onClick={menuFunction}>
             <img src="https://cdn-icons-png.flaticon.com/512/8336/8336254.png" alt="" />
             <h3>Menu</h3>
           </div>
