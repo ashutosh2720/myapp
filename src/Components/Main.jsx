@@ -1,7 +1,6 @@
 import React from "react";
 import '../CSS/main.css';
 import Items from "./Items";
-import Slide from '../Images/anix.png'
 
 
 export default function Main() {
@@ -9,7 +8,7 @@ export default function Main() {
         <>
 
             <div className="slider">
-                <img src={Slide} alt="" />
+                <img src="https://w3hubs.com/wp-content/uploads/2020/12/Responsive-Ecommerce-Product-Cards-In-HTML-CSS.png" alt="" />
             </div>
             <div className="deal"><h1>Best Deals</h1></div><hr />
             <div className="items">
