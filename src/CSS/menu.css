@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Playfair+Display:ital@0;1&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
+
+
+
 .main-menu {
     position: fixed;
     top: 0px;
@@ -5,6 +9,9 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 99999990;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+
 }
 
 
@@ -27,6 +34,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    font-size: 1rem;
 
 }
 

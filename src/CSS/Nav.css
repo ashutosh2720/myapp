@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Playfair+Display:ital@0;1&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
 
 nav {
   width: 100vw;
@@ -11,7 +11,8 @@ nav {
   top: 0;
   border-bottom: 2px solid black;
   z-index: 1;
-  /* font-family: 'Kaushan Script', cursive; */
+  font-family: 'Playfair Display', serif;
+
 
 }
 
@@ -78,7 +79,7 @@ nav {
 .navigation {
   margin-top: 5px;
   position: sticky;
-  top: 10px;
+  top: 5px;
   border-radius: 0px 0px 0px 10px;
   background-color: rgba(4, 171, 199, 25);
   padding: 10px;
@@ -89,7 +90,7 @@ nav {
 .navigation ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .navigation ul li a {
@@ -133,5 +134,18 @@ nav {
 
   .nav-right .hamburger {
     display: contents;
+  }
+
+  .nav-right .img1 {
+    display: contents;
+
+  }
+
+  .nav-right {
+    gap: 15px
+  }
+
+  .nav-mid {
+    padding-left: 20px;
   }
 }

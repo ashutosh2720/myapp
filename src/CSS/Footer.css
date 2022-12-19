@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Lato:ital,wght@1,900&family=Playfair+Display:ital@0;1&family=Rubik+Spray+Paint&family=Rubik+Vinyl&display=swap');
 
 .footer {
     border-radius: 10px 10px 0px 0px;
@@ -9,7 +9,9 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+
 
 }
 

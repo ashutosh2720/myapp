@@ -42,10 +42,7 @@ function Navbar() {
             <div className="img4">
               <img src="https://cdn-icons-png.flaticon.com/512/1828/1828503.png" alt="" />
             </div>
-            <div className="img1">
 
-              <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png" alt="" />
-            </div>
             <div className="img4">
               <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="" />
             </div>
@@ -56,6 +53,10 @@ function Navbar() {
           </div>
           <div className="hamburger">
             <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="" />
+          </div>
+          <div className="img1">
+
+            <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png" alt="" />
           </div>
         </div>
 
