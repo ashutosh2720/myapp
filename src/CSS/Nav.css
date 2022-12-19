@@ -35,11 +35,11 @@ nav {
 }
 
 .nav-left img {
-  width: 2rem;
+  width: 1rem;
 }
 
 .login {
-  font-size: .2rem;
+  font-size: -10rem;
 }
 
 .nav-right img {
@@ -76,8 +76,13 @@ nav {
 }
 
 .navigation {
+  margin-top: 5px;
+  position: sticky;
+  top: 85px;
+  border-radius: 0px 0px 0px 10px;
   background-color: rgba(4, 171, 199, 25);
-  padding: 20px;
+  padding: 10px;
+  z-index: 999999;
 }
 
 
@@ -88,9 +93,9 @@ nav {
 }
 
 .navigation ul li a {
-  border-bottom: 2px solid #000000;
+  border-bottom: 1px solid #000000;
   border-radius: 100px;
-  padding: 2px;
+  padding: 4px;
   text-decoration: none;
   color: black;
   font-size: 1rem;
@@ -109,6 +114,7 @@ nav {
 .navigation ul li a:hover {
   color: white;
   border-radius: 0%;
+
 
 
 }

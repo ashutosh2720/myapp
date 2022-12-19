@@ -49,9 +49,7 @@ function Navbar() {
             <div className="img4">
               <img src="https://cdn-icons-png.flaticon.com/512/2662/2662503.png" alt="" />
             </div>
-            <div className="img2">
-              <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="" />
-            </div>
+
             <div className="img3">
               <img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" alt="" />
             </div>
