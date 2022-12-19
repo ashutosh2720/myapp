@@ -3,6 +3,10 @@ import logo from '../Images/ecom2.png'
 import '../CSS/Nav.css';
 import Menu from "./Menu";
 import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
+import Man2Icon from '@mui/icons-material/Man2';
+import IceSkatingIcon from '@mui/icons-material/IceSkating';
+import WomanIcon from '@mui/icons-material/Woman';
+import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 
 function Navbar() {
 
@@ -56,7 +60,18 @@ function Navbar() {
             <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="" />
           </div>
         </div>
+
+
       </nav>
+
+      <div className="navigation">
+        <ul>
+          <div className="ments-wear"><li><a href=""><Man2Icon />Mens wear</a></li></div>
+          <div className="kids-wear"><li><a href=""><IceSkatingIcon />Foot wear</a></li></div>
+          <div className="womens-saare"><li><a href=""><WomanIcon />Ledies Suit</a></li></div>
+          <div className="home-appliance"> <li><a href=""><SoupKitchenIcon />Home & Appliance</a></li></div>
+        </ul>
+      </div>
 
     </>
 

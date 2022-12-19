@@ -58,6 +58,7 @@ body::-webkit-scrollbar {
 .collection {
     background-color: rgba(4, 181, 199, 19);
     display: flex;
+    padding: 20px 0px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -70,13 +71,15 @@ body::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
     padding: 1px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     background-color: white
 }
 
 .collection img {
     width: 70px;
+
     display: flex;
     justify-content: center;
     align-items: center;
