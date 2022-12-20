@@ -127,6 +127,7 @@ nav {
 
 .navigation ul li a:hover {
   border-top: 2px solid white;
+  color: gold;
 
 
 }
