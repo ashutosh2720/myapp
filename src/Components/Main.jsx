@@ -44,7 +44,7 @@ export default function Main() {
                                     <img src={val.img} alt="" />
                                 </div>
                                 <div className="ind-item">
-                                    <h4>{val.title}</h4>
+                                    <h2>{val.title}</h2>
                                     <p>{val.price}</p>
                                     <p>{val.company}</p>
                                     <button><h6 className="glow">add to cart</h6></button>
