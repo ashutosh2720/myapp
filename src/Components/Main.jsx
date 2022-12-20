@@ -8,7 +8,7 @@ import Sign from './Sign'
 
 export default function Main() {
     return (
-        <>   <Sign />
+        <>
 
             <Carousel autoPlay={true} infiniteLoop={true} interval='3000' emulateTouch={true}>
                 <div>
@@ -47,6 +47,7 @@ export default function Main() {
                                     <h1>{val.title}</h1>
                                     <p>{val.price}</p>
                                     <p>{val.company}</p>
+                                    <button>add to cart</button>
                                 </div>
                             </div>
                         )

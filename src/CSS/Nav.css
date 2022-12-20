@@ -77,11 +77,13 @@ nav {
 .nav-right {
   padding-right: 20px;
   color: white;
+  cursor: pointer;
 }
 
 .nav-right .icons {
   display: flex;
   gap: 30px;
+  cursor: pointer;
 
 }
 

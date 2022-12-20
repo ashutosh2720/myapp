@@ -3,6 +3,7 @@ import logo from '../Images/anix4.png'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import '../CSS/Nav.css';
 import Menu from "./Menu";
+import Sign from './Sign'
 import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
 import Man2Icon from '@mui/icons-material/Man2';
 import IceSkatingIcon from '@mui/icons-material/IceSkating';
@@ -16,9 +17,15 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 function Navbar() {
 
   const [showMenu, setShowMenu] = useState(false);
+  const [showLog, setLog] = useState(false);
 
   const menuFunction = () => {
     setShowMenu(!showMenu)
+  }
+
+
+  const logFunction = () => {
+    setLog(!showLog)
   }
 
   return (
@@ -30,12 +37,22 @@ function Navbar() {
           <Menu />
         </div>
       }
+
+      {
+        showLog
+        &&
+        <div onClick={logFunction}>
+          <Sign />
+        </div>
+
+      }
       <nav>
         <div className="nav-left">
           <div className="img-name" onClick={menuFunction}>
             <MenuOpenOutlinedIcon />
             <h3>Menu</h3>
           </div>
+
         </div>
         <div className="nav-mid">
           <img src={logo} alt="" /><ShoppingCartOutlinedIcon className="cart" />
@@ -46,7 +63,7 @@ function Navbar() {
           <div className="icons">
 
 
-            <div className="img4">
+            <div className="img4" onClick={logFunction}>
               <PersonAddIcon />
             </div>
 
