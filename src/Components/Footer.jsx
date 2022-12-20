@@ -51,6 +51,7 @@ export default function Footer() {
             <div className="copy">
                 <h4> &#169;Copyright  2022 ANIX CART</h4><img src={logo} alt="" />
             </div>
+
         </>
     )
 }

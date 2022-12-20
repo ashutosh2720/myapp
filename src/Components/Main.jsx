@@ -1,15 +1,39 @@
 import React from "react";
 import '../CSS/main.css';
 import Items from "./Items";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import Sign from './Sign'
 
 
 export default function Main() {
     return (
-        <>
+        <>   <Sign />
 
-            <div className="slider">
-                <img src="https://w3hubs.com/wp-content/uploads/2020/12/Responsive-Ecommerce-Product-Cards-In-HTML-CSS.png" alt="" />
-            </div>
+            <Carousel autoPlay={true} infiniteLoop={true} interval='3000' emulateTouch={true}>
+                <div>
+                    <img src="https://w3hubs.com/wp-content/uploads/2020/12/Responsive-Ecommerce-Product-Cards-In-HTML-CSS.png" />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/originals/07/d4/b6/07d4b628c48f0459bbbeef4051fae3f2.jpg" />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src="https://1.bp.blogspot.com/-CccUX_R7xpk/YPF2An129PI/AAAAAAAABPM/l_yswgsw34Ua88ZCv8NCh-qGGBNQ-BIvwCNcBGAsYHQ/s1920/Small-appliances-banner-1920x500.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+
+                <div>
+                    <img src="https://i.pinimg.com/originals/15/2b/20/152b2003844b264f352096dd2a88726d.png" />
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src="https://besthiking.net/wp-content/uploads/2014/11/Best-Merino-Base-Layers-1024x384.jpg" />
+                    <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
+
             <div className="deal"><h1>Best Deals</h1></div><hr />
             <div className="items">
                 {

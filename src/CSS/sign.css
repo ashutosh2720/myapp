@@ -3,11 +3,12 @@ form {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 0px;
+    top: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 10000;
+    background-color: rgb(9, 35, 67, .9);
+    opacity: 100%;
+    z-index: 10000000;
 }
 
 .sign {
@@ -15,15 +16,40 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
-    height: 600px;
-    width: 600px;
-    border-radius: 20px;
-    gap: 10px;
+    background-color: white;
+    height: 60vh;
+    width: 30vw;
+    box-shadow: 0px 0px 20px 2px rgb(18, 20, 15);
+    color: black;
+    border-radius: 10px;
+    gap: 0px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.sign a {
+    text-decoration: none;
+    color: #076dea;
+
 }
 
 input {
-    border: none;
-    padding: 10px;
+    border: 3px solid #0C2340;
+    padding: 7px;
+    width: 240px;
     border-radius: 70px;
+}
+
+.log-with {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.log-with img {
+    width: 30px;
+
 }
