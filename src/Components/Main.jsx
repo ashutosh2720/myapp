@@ -47,7 +47,7 @@ export default function Main() {
                                     <h1>{val.title}</h1>
                                     <p>{val.price}</p>
                                     <p>{val.company}</p>
-                                    <button>add to cart</button>
+                                    <button><h6 className="glow">add to cart</h6></button>
                                 </div>
                             </div>
                         )
@@ -61,27 +61,28 @@ export default function Main() {
             <div className="collection">
                 <div className="Mens-jacket col">
                     <img src="https://www.pngarts.com/files/3/Men-Jacket-PNG-Free-Download.png" alt="" />
-                    <h2> jacket</h2>
+                    <div className="txt">jacket</div>
+
                 </div>
                 <div className="Womens-saree col">
                     <img src="https://th.bing.com/th/id/R.c065f741320873055400b4a8f5b43201?rik=tyUE5lyoZkboKw&riu=http%3a%2f%2fwww.pngimagesfree.com%2fPeople%2fSaree%2fSaree-2%2fSilk-Saree-PNG-wearing-model_pngimagesfree.com.png&ehk=P21TJx2eJwbp6GyxN2qfEGBkI7JjapZQTEmlCgGITT0%3d&risl=&pid=ImgRaw&r=0" alt="" />
-                    <h2>Saaree</h2>
+
                 </div>
                 <div className="Mens-shoes col">
                     <img src="https://pluspng.com/img-png/mens-shoes-hd-png-download-clothes-mens-shoes-2000.png" alt="" />
-                    <h2> Shoes</h2>
+
                 </div>
                 <div className="girls-lahenga col">
                     <img src="https://cdn.shopify.com/s/files/1/1768/0827/products/MG_9675_grande.png?v=1509561488" alt="" />
-                    <h2>Lahenga</h2>
+
                 </div>
                 <div className="Mens-shoes col">
                     <img src="https://pluspng.com/img-png/mens-shoes-hd-png-download-clothes-mens-shoes-2000.png" alt="" />
-                    <h2> Shoes</h2>
+
                 </div>
                 <div className="girls-lahenga col">
                     <img src="https://cdn.shopify.com/s/files/1/1768/0827/products/MG_9675_grande.png?v=1509561488" alt="" />
-                    <h2>Lahenga</h2>
+
                 </div>
 
 

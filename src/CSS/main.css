@@ -61,23 +61,22 @@ body::-webkit-scrollbar {
 
     background-color: #0C2340;
     display: flex;
-    padding: 20px 0px;
+    padding: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin-top: 40px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .col {
     display: flex;
-
     justify-content: center;
     align-items: center;
     padding: 1px;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+    width: 130px;
+    height: 90px;
+    border-radius: 10%;
     background-color: white
 }
 
