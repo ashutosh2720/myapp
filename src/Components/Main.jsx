@@ -12,11 +12,11 @@ export default function Main() {
 
             <Carousel autoPlay={true} infiniteLoop={true} interval='3000' emulateTouch={true}>
                 <div>
-                    <img src="https://w3hubs.com/wp-content/uploads/2020/12/Responsive-Ecommerce-Product-Cards-In-HTML-CSS.png" />
-                    <p className="legend">Legend 1</p>
+                    <img src="https://www.winkart.in/wp-content/uploads/2020/12/section09-slider1.jpg" />
+                    <p className="legend">Legend 3</p>
                 </div>
                 <div>
-                    <img src="https://i.pinimg.com/originals/07/d4/b6/07d4b628c48f0459bbbeef4051fae3f2.jpg" />
+                    <img src="https://www.kindpng.com/picc/m/491-4913062_nike-adidas-shoes-slider-nike-concept-slider-concept.png" />
                     <p className="legend">Legend 2</p>
                 </div>
                 <div>
@@ -25,16 +25,21 @@ export default function Main() {
                 </div>
 
                 <div>
-                    <img src="https://i.pinimg.com/originals/15/2b/20/152b2003844b264f352096dd2a88726d.png" />
+                    <img src="https://www.ta-hifi.de/wp-content/uploads/solitaire_t_slider_home._2jpg-scaled.jpg" />
                     <p className="legend">Legend 3</p>
                 </div>
                 <div>
-                    <img src="https://besthiking.net/wp-content/uploads/2014/11/Best-Merino-Base-Layers-1024x384.jpg" />
+                    <img src="https://g3fashion.cdn.imgeng.in/upload/new_home/sub_banner/1668498287_girl-sub-banner-choli-suit.jpg" />
                     <p className="legend">Legend 3</p>
                 </div>
+                <div>
+                    <img src="https://uk.yamaha.com/en/files/tw-e3b-purple-slider_5292a53b94567c3c40d65d5595c4c3ae.jpg?impolicy=resize&imwid=1200&imhei=480" />
+                    <p className="legend">Legend 3</p>
+                </div>
+
             </Carousel>
 
-            <div className="deal"><h1>Best Deals</h1></div><hr />
+            <div className="deal"><h1>Best Deals</h1></div>
             <div className="items">
                 {
                     Items.map((val) => {
@@ -54,9 +59,8 @@ export default function Main() {
                     })
                 }
             </div>
-            <hr />
-            <hr />
-            <div className="cole"> <h2>Our Collections</h2></div><hr />
+
+            <div className="cole"> <h2>Our Collections</h2></div>
 
             <div className="collection">
                 <div className="Mens-jacket col">

@@ -92,9 +92,9 @@ nav {
 }
 
 .navigation {
-  margin-top: -10px;
+  margin-top: 0px;
   position: sticky;
-  top: 55px;
+  top: 45px;
   background-color: #0C2340;
   padding-top: 0px;
   z-index: 999999;
@@ -104,7 +104,7 @@ nav {
 .navigation ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navigation ul li a {
@@ -126,7 +126,7 @@ nav {
 }
 
 .navigation ul li a:hover {
-  border-top: 2px solid white;
+
   color: gold;
 
 

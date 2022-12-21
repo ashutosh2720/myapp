@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 
 
 .items {
-
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1px;
+    gap: 10px;
     color: #0C2340;
 }
 
@@ -62,7 +62,7 @@ body::-webkit-scrollbar {
 }
 
 .collection {
-
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     background-color: #0C2340;
     display: flex;
     padding: 20px;
@@ -74,6 +74,7 @@ body::-webkit-scrollbar {
 }
 
 .col {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +87,6 @@ body::-webkit-scrollbar {
 
 .collection img {
     width: 70px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +95,7 @@ body::-webkit-scrollbar {
 }
 
 .cole {
+
     display: flex;
     justify-content: center;
     align-items: center;
