@@ -38,6 +38,7 @@ export default function Main() {
                 </div>
 
             </Carousel>
+            <br />
 
             <div className="deal"><h1>Best Deals</h1></div>
             <div className="items">

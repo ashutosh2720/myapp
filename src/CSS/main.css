@@ -18,6 +18,15 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 
+.deal h1 {
+    background-color: #0C2340;
+    color: white;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.3rem;
+}
+
 
 .items {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -62,7 +71,6 @@ body::-webkit-scrollbar {
 }
 
 .collection {
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     background-color: #0C2340;
     display: flex;
     padding: 20px;
@@ -81,7 +89,7 @@ body::-webkit-scrollbar {
     padding: 1px;
     width: 130px;
     height: 90px;
-    border-radius: 10%;
+    border-radius: 50%;
     background-color: white
 }
 

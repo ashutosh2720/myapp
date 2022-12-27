@@ -90,7 +90,7 @@ function Navbar() {
           <div className="kids-wear"><li><a href=""><IceSkatingIcon />Foot wear</a></li></div>
           <div className="womens-saare"><li><a href=""><WomanIcon />Ledies Suit</a></li></div>
           <div className="home-appliance"> <li><a href=""><SoupKitchenIcon />Home & Appliance</a></li></div>
-        </ul>
+        </ul>*
       </div>
 
     </>
