@@ -10,7 +10,7 @@ nav {
   position: sticky;
   top: 0;
   border-bottom: 2px solid black;
-  z-index: 1;
+  z-index: 3;
   font-family: 'Playfair Display', serif;
 
 
@@ -94,7 +94,7 @@ nav {
 .navigation {
   margin-top: 0px;
   position: sticky;
-  top: 45px;
+  top: 54px;
   background-color: #0C2340;
   padding-top: 0px;
   z-index: 999999;
@@ -156,6 +156,15 @@ nav {
   .nav-right .img1 {
     display: contents;
 
+  }
+
+  .navigation {
+    margin-top: 0px;
+    position: sticky;
+    top: 10px;
+    background-color: #0C2340;
+    padding-top: 0px;
+    z-index: 999999;
   }
 
   .nav-right {

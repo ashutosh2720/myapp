@@ -36,30 +36,8 @@ body {
   width: 40vw;
 }
 
-button {
-
-  display: inline-block;
-  padding: .75rem 1.25rem;
-  border-radius: 10rem;
-  color: #fff;
-  background-color: #0C2340;
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: .15rem;
-  transition: 1s ease-in-out;
-  position: relative;
-  cursor: pointer;
-  overflow: hidden;
-  z-index: 1;
-
-}
 
 
-
-button:hover {
-  color: gold;
-  text-shadow: 0px 0px 10px 10px white;
-}
 
 .items {
   display: flex;
@@ -110,4 +88,57 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+}
+
+.bn53 {
+  background-color: #0C2340;
+  padding: 7px;
+  height: 40px;
+  border-radius: 10px;
+  width: 120px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* animation: bn53bounce 4s infinite; */
+  cursor: pointer;
+}
+
+.bn53:hover {
+  animation: bn53bounce 2.5s infinite;
+}
+
+@keyframes bn53bounce {
+
+  5%,
+  50% {
+    transform: scale(1);
+    color: gold;
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
 }

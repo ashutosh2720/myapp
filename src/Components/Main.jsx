@@ -5,22 +5,12 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Sign from './Sign'
 import { useState } from "react";
+import Product from "./Product";
 
 
 export default function Main() {
 
-    const [Items, setItems] = useState([]);
 
-    const getApiData = async () => {
-        let response = await fetch('https://dummyjson.com/products?limit=8');
-        let data = await response.json();
-        console.log(data.products);
-        setItems(data.products)
-    }
-
-    useEffect(() => {
-        getApiData()
-    }, [])
 
 
     return (
@@ -56,32 +46,30 @@ export default function Main() {
             </Carousel>
             <br />
 
-            <div className="deal"><h1>Best Deals</h1></div>
-
-            <div className="items">
-                {
-                    Items ?
-                        Items.map((val) => {
-                            return (
-                                <div className="img-details">
-                                    <div className="product-img">
-                                        <img src={val.thumbnail} alt="" />
-                                    </div>
-                                    <div className="ind-item">
-                                        <h2>{val.title.slice(0, 7)}...</h2>
-                                        <p>{val.price}</p>
-                                        <p>{val.brand.slice(0, 14)}...</p>
-                                        <button><h6 className="glow">add to cart</h6></button>
-                                    </div>
-                                </div>
-                            )
-                        }) :
-                        <div className="img-details">Loading</div>
-
-                }
-                <div className="all"><h3>view all</h3></div>
-            </div>
-
+            <Product
+                category='tops'
+                title='Tops'
+            />
+            <Product
+                category='skincare'
+                title='Skincare'
+            />
+            <Product
+                category='groceries'
+                title='Groceries'
+            />
+            <Product
+                category='mens-shirts'
+                title='Mens Shirts'
+            />
+            <Product
+                category='womens-dresses'
+                title='Womens Dresses'
+            />
+            <Product
+                category='mens-watches'
+                title='Mens Watches'
+            />
 
 
 
