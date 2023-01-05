@@ -31,10 +31,17 @@ body::-webkit-scrollbar {
 .items {
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 39px;
+    padding: 30px 0px;
+    position: relative;
+}
+
+.img-details {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    /* max-width: 140px; */
 }
 
 .ind-item {
@@ -42,26 +49,24 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     color: #0C2340;
 }
 
 .product-img {
-
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 5px;
     height: 100px;
     width: 140px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .product-img img {
-    width: 70px;
-
-
+    width: 120px;
+    max-height: 90px;
+    object-fit: contain;
 }
 
 .product-img:hover {
@@ -126,6 +131,18 @@ body::-webkit-scrollbar {
 .carousel-root:hover {
     background-color: #0C2340 !important;
     opacity: 90% !important;
+}
+
+.all {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    background-color: #0C2340;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 

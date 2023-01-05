@@ -10,13 +10,17 @@ import ViewListIcon from '@mui/icons-material/ViewList';
 import AssignmentReturnIcon from '@mui/icons-material/AssignmentReturn';
 import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 
 
-export default function Menu() {
+export default function Menu({ menuFunction }) {
     return (
         <>
             <div className="main-menu">
                 <div className="menu-left">
+                    <div className="close-menu" onClick={menuFunction}>
+                        <HighlightOffIcon />
+                    </div>
                     <div className="welcome">
                         <h1><AccountCircleIcon className="user" />Welcome,User</h1>
                     </div>
@@ -47,11 +51,8 @@ export default function Menu() {
                             <li><LogoutIcon />Sign Out</li>
                         </ul>
                     </div>
-
-
-
-
-
+                </div>
+                <div className="menu-right" onClick={menuFunction}>
 
                 </div>
             </div>

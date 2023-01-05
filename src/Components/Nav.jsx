@@ -13,6 +13,7 @@ import MenuOpenOutlinedIcon from '@mui/icons-material/MenuOpenOutlined';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
 
@@ -33,9 +34,7 @@ function Navbar() {
       {
         showMenu
         &&
-        <div onClick={menuFunction}>
-          <Menu />
-        </div>
+        <Menu menuFunction={menuFunction} />
       }
 
       {
@@ -63,9 +62,13 @@ function Navbar() {
           <div className="icons">
 
 
-            <div className="img4" onClick={logFunction}>
-              <PersonAddIcon />
+            <div className="img4" >
+              <NavLink to='/sign'>
+                <PersonAddIcon />
+              </NavLink>
+
             </div>
+
 
             <div className="img4">
               <ShoppingBagIcon />
@@ -90,7 +93,7 @@ function Navbar() {
           <div className="kids-wear"><li><a href=""><IceSkatingIcon />Foot wear</a></li></div>
           <div className="womens-saare"><li><a href=""><WomanIcon />Ledies Suit</a></li></div>
           <div className="home-appliance"> <li><a href=""><SoupKitchenIcon />Home & Appliance</a></li></div>
-        </ul>*
+        </ul>
       </div>
 
     </>

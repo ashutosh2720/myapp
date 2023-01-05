@@ -2,11 +2,11 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
     width: 100vw;
-    height: 100vh;
-    background-color: rgb(9, 35, 67, .9);
+    height: 80vh;
+    /* background-color: rgb(9, 35, 67, .9); */
     opacity: 100%;
     z-index: 10000000;
 }
@@ -17,11 +17,11 @@ form {
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 60vh;
-    width: 30vw;
+    height: 70vh;
+    width: 70vw;
 
     color: black;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    box-shadow: rgb(204, 219, 232) 3px 3px 700px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     border-radius: 10px;
     gap: 2px;
     font-size: 1.1rem;
