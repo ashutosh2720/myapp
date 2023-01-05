@@ -22,7 +22,7 @@ export default function Sign() {
                     <input type="password" placeholder="Enter password" /><br />
                     <h5>Forget Password <a href=""> ->click here</a></h5><br />
 
-                    <button>Login</button><br />
+                    <button className="bn53">Login</button><br />
                     <h5>Create new acount <a href=""> ->click here</a></h5><br /><br />
                     <div className="log-with">
                         <div> login with</div>
