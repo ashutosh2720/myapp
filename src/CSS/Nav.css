@@ -145,9 +145,7 @@ nav {
     font-size: 10px;
   }
 
-  .nav-right .icons {
-    display: none;
-  }
+  .nav-right .icons {}
 
   .nav-right .hamburger {
     display: contents;
@@ -167,11 +165,11 @@ nav {
     z-index: 999999;
   }
 
-  .nav-right {
-    gap: 15px
+  .nav-right img {
+    gap: 30px
   }
 
   .nav-mid {
-    padding-left: 20px;
+    padding-left: 90px;
   }
 }
