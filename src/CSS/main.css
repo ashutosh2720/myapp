@@ -148,6 +148,20 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    /* background-image: url('https://www.pedalo.co.uk/wp-content/uploads/2019/05/Firebox-1024x599.png '); */
+    background-size: cover;
+
+}
+
+.error img {
+    height: 70vh;
+}
 
 
 

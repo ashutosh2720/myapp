@@ -8,6 +8,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Mens from './Mens';
 import Womens from './Womens';
 import Decoration from './Decoration';
+import Error from './Error';
+import Empty from './Empty';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path='/Mens' element={<Mens />} />
         <Route path='/Womens' element={<Womens />} />
         <Route path='/Decoration' element={<Decoration />} />
+        <Route path='/Error' element={<Error />} />
+        <Route path='/Empty' element={<Empty />} />
       </Routes>
 
       <Footer />

@@ -16,6 +16,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { NavLink } from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
 import Womens from "./Womens";
+import Error from "./Error";
 
 
 function Navbar() {
@@ -58,6 +59,7 @@ function Navbar() {
         </div>
         <div className="nav-mid">
           <img src={logo} alt="" /><ShoppingCartOutlinedIcon className="cart" />
+
         </div>
 
         <div className="nav-right">
@@ -74,16 +76,14 @@ function Navbar() {
 
 
             <div className="img4">
-              <ShoppingBagIcon />
+              <NavLink to='/Error'><ShoppingBagIcon /></NavLink>
             </div>
 
             <div className="img3">
-              <ShoppingCartIcon />
+              <NavLink to='/Empty'> <ShoppingCartIcon /></NavLink>
             </div>
           </div>
-          <div className="hamburger">
-            {/* <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="" /> */}
-          </div>
+
 
         </div>
 
