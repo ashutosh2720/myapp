@@ -1,7 +1,9 @@
 form {
-    background-color: #1f3e65;
+    background-image: url('https://d27jswm5an3efw.cloudfront.net/app/uploads/2019/10/image-processing-2.jpg');
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     /* position: fixed;
     top: 0; */
@@ -10,6 +12,7 @@ form {
     /* background-color: rgb(9, 35, 67, .9); */
     opacity: 100%;
     z-index: 10000000;
+    color: white;
 }
 
 .sign {
@@ -17,22 +20,22 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    height: 70vh;
-    width: 70vw;
+    color: white;
+    background-color: ;
 
-    color: black;
+    height: 80vh;
+    width: 100vw;
     box-shadow: rgb(93, 129, 160) 3px 3px 700px 0px inset, rgba(219, 202, 202, 0.5) -3px -3px 6px 1px inset;
     border-radius: 10px;
     gap: 2px;
     font-size: 1.1rem;
     font-weight: bolder;
+    opacity: 100%;
 }
 
 .sign a {
     text-decoration: none;
-    color: #076dea;
-
+    color: red
 }
 
 input {
