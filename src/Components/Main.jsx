@@ -6,6 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 import Sign from './Sign'
 import { useState } from "react";
 import Product from "./Product";
+import Mens from "./Mens";
 
 
 export default function Main() {
@@ -70,6 +71,8 @@ export default function Main() {
                 category='mens-watches'
                 title='Mens Watches'
             />
+            <Mens />
+
 
 
 

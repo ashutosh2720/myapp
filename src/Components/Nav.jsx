@@ -14,6 +14,9 @@ import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { NavLink } from "react-router-dom";
+import HomeIcon from '@mui/icons-material/Home';
+import Womens from "./Womens";
+
 
 function Navbar() {
 
@@ -89,10 +92,16 @@ function Navbar() {
 
       <div className="navigation">
         <ul>
-          <div className="ments-wear"><li><a href=""><Man2Icon />Mens wear</a></li></div>
-          <div className="kids-wear"><li><a href=""><IceSkatingIcon />Foot wear</a></li></div>
-          <div className="womens-saare"><li><a href=""><WomanIcon />Ledies Suit</a></li></div>
-          <div className="home-appliance"> <li><a href=""><SoupKitchenIcon />Home & Appliance</a></li></div>
+
+          <div className="home"><li><NavLink to='/'><HomeIcon />Home
+          </NavLink></li></div>
+          <div className="ments-wear"><li><NavLink to='/Mens'>
+            <Man2Icon />Mens wear
+
+          </NavLink></li></div>
+
+          <div className="womens-saare"><li><NavLink to='/Womens'><WomanIcon />Womens wear</NavLink></li></div>
+          <div className="home-appliance"> <li><NavLink to='/Decoration'><SoupKitchenIcon />Home & Appliance</NavLink></li></div>
         </ul>
       </div>
 

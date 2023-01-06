@@ -5,6 +5,9 @@ import Main from './Main';
 import Footer from './Footer';
 import Sign from './Sign'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Mens from './Mens';
+import Womens from './Womens';
+import Decoration from './Decoration';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/Sign' element={<Sign />} />
+        <Route path='/Mens' element={<Mens />} />
+        <Route path='/Womens' element={<Womens />} />
+        <Route path='/Decoration' element={<Decoration />} />
       </Routes>
 
       <Footer />
