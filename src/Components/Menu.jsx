@@ -1,6 +1,7 @@
 import React from "react";
 import '../CSS/menu.css';
 import LogoutIcon from '@mui/icons-material/Logout';
+import LoginIcon from '@mui/icons-material/Login';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
@@ -11,9 +12,21 @@ import AssignmentReturnIcon from '@mui/icons-material/AssignmentReturn';
 import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import { useGlobalLogin } from "../context/login-context";
+import { NavLink, useNavigate } from "react-router-dom";
 
 
 export default function Menu({ menuFunction }) {
+
+    const { userToken, logoutUser, userDetail } = useGlobalLogin()
+
+    const navigate = useNavigate();
+
+    const logoutAction = () => {
+        logoutUser()
+        menuFunction()
+    }
+
     return (
         <>
             <div className="main-menu">
@@ -22,15 +35,15 @@ export default function Menu({ menuFunction }) {
                         <HighlightOffIcon />
                     </div>
                     <div className="welcome">
-                        <h1><AccountCircleIcon className="user" />Welcome,User</h1>
+                        <h1><AccountCircleIcon className="user" />Welcome,{userDetail ? userDetail.firstName : "user"}</h1>
                     </div>
                     <div className="order">
                         <ul>
                             <h2>Order</h2>
-                            <li><ViewListIcon />Order Summary</li>
-                            <li><AssignmentReturnIcon />Return</li>
-                            <li><ViewModuleIcon />My Order</li>
-                            <li><FavoriteBorderIcon />My Wishlist</li>
+                            <li onClick={menuFunction}><ViewListIcon />Order Summary</li>
+                            <li onClick={menuFunction}><AssignmentReturnIcon />Return</li>
+                            <li onClick={menuFunction}><ViewModuleIcon />My Order</li>
+                            <li onClick={menuFunction}><FavoriteBorderIcon />My Wishlist</li>
 
                         </ul>
                     </div><hr />
@@ -38,17 +51,23 @@ export default function Menu({ menuFunction }) {
                     <div className="payment">
                         <ul>
                             <h2>Payments</h2>
-                            <li><PaymentIcon />Payment History</li>
-                            <li><AccountBalanceWalletIcon />Payment Refund</li>
+                            <li onClick={menuFunction}><PaymentIcon />Payment History</li>
+                            <li onClick={menuFunction}><AccountBalanceWalletIcon />Payment Refund</li>
                         </ul>
                     </div><hr />
 
                     <div className="hellp">
                         <ul>
                             <h2>Help & Setting</h2>
-                            <li><ManageAccountsIcon />My Account</li>
-                            <li><SupportAgentIcon />Costumer Support</li>
-                            <li><LogoutIcon />Sign Out</li>
+                            <li onClick={menuFunction}><ManageAccountsIcon />My Account</li>
+                            <li onClick={menuFunction}><SupportAgentIcon />Costumer Support</li>
+                            {
+                                userToken ?
+                                    <li onClick={logoutAction}><LogoutIcon /> Sign Out</li> :
+                                    <NavLink to='/sign'>
+                                        <li onClick={menuFunction}><LoginIcon />Sign In</li>
+                                    </NavLink>
+                            }
                         </ul>
                     </div>
                 </div>

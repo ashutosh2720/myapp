@@ -100,7 +100,9 @@ function Navbar() {
 
           </NavLink></li></div>
 
-          <div className="womens-saare"><li><NavLink to='/Womens'><WomanIcon />Womens wear</NavLink></li></div>
+          <div className="womens-saare"><li><NavLink to='/Womens ' className={isActive =>
+            !isActive ? " active" : "inactive"
+          }><WomanIcon />Womens wear</NavLink></li></div>
           <div className="home-appliance"> <li><NavLink to='/Decoration'><SoupKitchenIcon />Home & Appliance</NavLink></li></div>
         </ul>
       </div>

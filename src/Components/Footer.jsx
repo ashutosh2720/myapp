@@ -3,6 +3,9 @@ import '../CSS/Footer.css'
 import logo from '../Images/ecom2.png'
 
 export default function Footer() {
+
+    let date = new Date().getFullYear()
+
     return (
         <>
             <div className="footer">
@@ -49,7 +52,7 @@ export default function Footer() {
 
             </div>
             <div className="copy">
-                <h4> &#169;Copyright  2022 ANIX CART</h4><img src={logo} alt="" />
+                <h4> &#169;Copyright {date} ANIX CART</h4><img src={logo} alt="" />
             </div>
 
         </>

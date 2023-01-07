@@ -10,13 +10,15 @@ import Womens from './Womens';
 import Decoration from './Decoration';
 import Error from './Error';
 import Empty from './Empty';
+import { ToastContainer } from 'react-toastify';
+
 
 function App() {
   return (
     <>
       <Navbar />
       {/* <Main /> */}
-
+      <ToastContainer />
       <Routes>
         <Route path='/' element={<Main />} />
         <Route path='/Sign' element={<Sign />} />

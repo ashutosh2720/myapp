@@ -12,8 +12,7 @@ const Product = ({ category, title }) => {
     const getApiData = async () => {
         let response = await fetch(API_URL);
         let data = await response.json();
-        console.log(data.products);
-        setItems(data.products)
+        setItems(data.products);
     }
 
 
@@ -39,7 +38,7 @@ const Product = ({ category, title }) => {
                                         <h2>{val.title.slice(0, 7)}...</h2>
                                         <p>{val.price}</p>
                                         <p>{val.brand.slice(0, 14)}...</p>
-                                        <button className='bn53'><AddShoppingCartIcon />add to cart
+                                        <button className='bn53'>view item
 
 
                                         </button>
