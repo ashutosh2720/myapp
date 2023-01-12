@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import '../CSS/main.css';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { NavLink } from 'react-router-dom';
+import '../CSS/App.css'
 
 const Product = ({ category, title }) => {
 
@@ -30,20 +32,22 @@ const Product = ({ category, title }) => {
                     Items ?
                         Items.map((val) => {
                             return (
-                                <div className="img-details">
-                                    <div className="product-img">
-                                        <img src={val.thumbnail} alt="" />
-                                    </div>
-                                    <div className="ind-item">
-                                        <h2>{val.title.slice(0, 7)}...</h2>
-                                        <p>{val.price}</p>
-                                        <p>{val.brand.slice(0, 14)}...</p>
-                                        <button className='bn53'>view item
+                                <NavLink to={'/single-product/' + val.id}>
+                                    <div className="img-details">
+                                        <div className="product-img">
+                                            <img src={val.thumbnail} alt="" />
+                                        </div>
+                                        <div className="ind-item">
+                                            <h2>{val.title.slice(0, 7)}...</h2>
+                                            <p>{val.price}</p>
+                                            <p>{val.brand.slice(0, 14)}...</p>
+                                            <button className='bn53'>view item
 
 
-                                        </button>
+                                            </button>
+                                        </div>
                                     </div>
-                                </div>
+                                </NavLink>
                             )
                         }) :
                         <div className="">Loading</div>

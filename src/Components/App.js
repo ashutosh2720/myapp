@@ -11,13 +11,13 @@ import Decoration from './Decoration';
 import Error from './Error';
 import Empty from './Empty';
 import { ToastContainer } from 'react-toastify';
+import Discription from './Discription';
 
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* <Main /> */}
       <ToastContainer />
       <Routes>
         <Route path='/' element={<Main />} />
@@ -27,9 +27,11 @@ function App() {
         <Route path='/Decoration' element={<Decoration />} />
         <Route path='/Error' element={<Error />} />
         <Route path='/Empty' element={<Empty />} />
-      </Routes>
+        <Route path='/single-product/:id' element={<Discription />} />
 
+      </Routes>
       <Footer />
+
 
     </>
   );
