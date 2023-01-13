@@ -40,7 +40,6 @@ const Product = ({ category, title }) => {
                                         <div className="ind-item">
                                             <p>{val.price}</p>
                                             <h4>{val.title.slice(0, 14)}...</h4>
-                                            {/* <p>{val.brand.slice(0, 14)}...</p> */}
 
                                         </div>
                                     </div>

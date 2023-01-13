@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom'
 import '../CSS/Discription.css'
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import PercentIcon from '@mui/icons-material/Percent';
+import DiscountIcon from '@mui/icons-material/Discount';
 
 
 export default function Discription() {
@@ -66,7 +67,7 @@ export default function Discription() {
 
                             <h1>{productDetail.title}</h1><br />
                             <h3>Brand  :  {productDetail.brand}</h3><br />
-                            <h4>{productDetail.description}</h4><br />
+                            <h4>Description     :   {productDetail.description}</h4><br />
                             <h3>Deal of the day</h3>
                             <h3>&#x20B9;{productDetail.price}/-</h3><br />
 
@@ -76,7 +77,7 @@ export default function Discription() {
                         <div className="offer">
                             <div>
 
-                                <h2><PercentIcon className='percent' />Offers</h2> <br />
+                                <h2><DiscountIcon className='percent' />Offers</h2> <br />
                                 <h4> <LocalOfferIcon className='off' />Bank Offer
                                     5% Cashback on Flipkart Axis Bank Card
                                     T&C</h4><br />
