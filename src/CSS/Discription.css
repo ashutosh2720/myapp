@@ -9,17 +9,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(224, 243, 243);
-    /* height: 90vh; */
+
+
     margin-top: 20px;
 }
 
 .left-dis {
     display: flex;
     flex-direction: row;
-    /* height: 90vh; */
     width: 40vw;
-    /* background-color: antiquewhite; */
     gap: 20px;
 
 }
@@ -50,7 +48,8 @@
 
 .right-dis {
     width: 50vw;
-    background-color: rgb(235, 245, 241);
+    border-left: .5px dashed black;
+
 }
 
 .left-dis .left-img {
@@ -67,9 +66,17 @@
 .offer {
     padding: 10px;
     margin: 20px;
-    border: 2px dotted black;
+    border: .5px dashed black;
     justify-content: center;
     align-items: center;
+}
+
+.off {
+    color: rgb(23, 93, 5);
+}
+
+.percent {
+    color: red
 }
 
 .title {

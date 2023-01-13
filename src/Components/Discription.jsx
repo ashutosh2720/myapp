@@ -3,6 +3,8 @@ import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { useParams } from 'react-router-dom'
 import '../CSS/Discription.css'
+import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import PercentIcon from '@mui/icons-material/Percent';
 
 
 export default function Discription() {
@@ -30,8 +32,7 @@ export default function Discription() {
         <>
             <div className="header">
                 <div className="heading">
-                    <h3> Category:Mens Shirt</h3>
-                    <h5>  Anix-cart  product Mens shirt</h5>
+
                 </div>
             </div>
 
@@ -55,44 +56,39 @@ export default function Discription() {
                     </div>
 
 
+
+
                 </div>
 
                 <div className="right-dis">
                     <div className="dis">
-                        <div className='title'> <h1>Mens Shirt</h1>
-                            Brand: Zara
-                            <br /><br />
-                            <h3> Description: Men Slim Fit Checkered Cut Away Collar Casual Shirt</h3>
+                        <div className='title'>
 
-                            <br /><br /><br />
+                            <h1>{productDetail.title}</h1><br />
+                            <h3>Brand  :  {productDetail.brand}</h3><br />
+                            <h4>{productDetail.description}</h4><br />
+                            <h3>Deal of the day</h3>
+                            <h3>&#x20B9;{productDetail.price}/-</h3><br />
 
-                            <h3> Deal of the Day
-                                <br /><br />
-                                -15.60%
 
-                                ₹2500.00/- </h3>
-                            <br /><br />
                         </div>
 
                         <div className="offer">
                             <div>
 
-                                <h2>offer</h2> <br /><h4>Bank Offer
+                                <h2><PercentIcon className='percent' />Offers</h2> <br />
+                                <h4> <LocalOfferIcon className='off' />Bank Offer
                                     5% Cashback on Flipkart Axis Bank Card
                                     T&C</h4><br />
-                                <h4>Buy this Product and Get Extra ₹500 Off on Two-Wheelers
+                                <h4><LocalOfferIcon className='off' />Buy this Product and Get Extra ₹500 Off on Two-Wheelers
                                     T&C</h4><br />
-                                <h4>Partner Offer
+                                <h4><LocalOfferIcon className='off' />Partner Offer
                                     Purchase now & get a surprise cashback coupon for January / February 2023
                                     Know More</h4><br />
-                                <h4>Partner Offer
+                                <h4 ><LocalOfferIcon className='off' />Partner Offer
                                     Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹1000*
                                     Know More</h4>
                             </div>
-                        </div>
-                        <div className="cart">
-                            <button className='bn53'>add to cart</button>
-                            <button className='bn53'>buy now</button>
                         </div>
 
 

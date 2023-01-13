@@ -58,7 +58,7 @@ function Navbar() {
 
         </div>
         <div className="nav-mid">
-          <img src={logo} alt="" /><ShoppingCartOutlinedIcon className="cart" />
+          <img src={logo} alt="" />
 
         </div>
 

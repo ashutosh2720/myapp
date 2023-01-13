@@ -6,7 +6,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #0C2340;
-  padding: 0px;
   position: sticky;
   top: 0;
   border-bottom: 2px solid black;
@@ -45,7 +44,7 @@ nav {
 }
 
 .nav-right img {
-  height: 1.1rem;
+  height: 1rem;
   cursor: pointer;
 }
 
@@ -58,11 +57,7 @@ nav {
   color: white;
 }
 
-.nav-mid .cart {
-  color: white;
-  font: 1rem;
-
-}
+.nav-mid .cart {}
 
 .nav-mid img {
   width: 7rem;

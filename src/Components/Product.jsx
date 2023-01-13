@@ -38,13 +38,10 @@ const Product = ({ category, title }) => {
                                             <img src={val.thumbnail} alt="" />
                                         </div>
                                         <div className="ind-item">
-                                            <h2>{val.title.slice(0, 7)}...</h2>
                                             <p>{val.price}</p>
-                                            <p>{val.brand.slice(0, 14)}...</p>
-                                            <button className='bn53'>view item
+                                            <h4>{val.title.slice(0, 14)}...</h4>
+                                            {/* <p>{val.brand.slice(0, 14)}...</p> */}
 
-
-                                            </button>
                                         </div>
                                     </div>
                                 </NavLink>

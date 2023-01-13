@@ -92,13 +92,13 @@ body {
 
 .bn53 {
   background-color: #0C2340;
-  padding: 7px;
-  height: 40px;
+  padding: 1px;
+  height: 35px;
   border-radius: 10px;
-  width: 120px;
+  width: 100px;
+  margin-bottom: 10px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* animation: bn53bounce 4s infinite; */
   cursor: pointer;
 }
 
