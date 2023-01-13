@@ -12,17 +12,21 @@ import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 import MenuOpenOutlinedIcon from '@mui/icons-material/MenuOpenOutlined';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { NavLink } from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
 import Womens from "./Womens";
 import Error from "./Error";
+import { useGlobalCart } from "../context/cart-context";
 
 
 function Navbar() {
 
   const [showMenu, setShowMenu] = useState(false);
   const [showLog, setLog] = useState(false);
+
+  const { cartArray } = useGlobalCart()
 
   const menuFunction = () => {
     setShowMenu(!showMenu)
@@ -80,7 +84,11 @@ function Navbar() {
             </div>
 
             <div className="img3">
-              <NavLink to='/Empty'> <ShoppingCartIcon /></NavLink>
+              <NavLink to='/Cart'>
+                <Badge badgeContent={cartArray.length} color="success">
+                  <ShoppingCartIcon className="cart-icon" />
+                </Badge>
+              </NavLink>
             </div>
           </div>
 

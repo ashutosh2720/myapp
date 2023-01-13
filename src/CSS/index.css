@@ -14,27 +14,6 @@ body {
 
 
 
-.main {
-  display: flex;
-  background-blend-mode: color-dodge;
-  background-color: rgba(220, 237, 245, 0.543);
-  ;
-  height: 80vh;
-  width: 100vw;
-}
-
-.main .img1 img {
-  height: 600px;
-}
-
-.main .img1 {
-  width: 60vw;
-}
-
-.main .content {
-  padding: 20px;
-  width: 40vw;
-}
 
 
 

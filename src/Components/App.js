@@ -12,6 +12,7 @@ import Error from './Error';
 import Empty from './Empty';
 import { ToastContainer } from 'react-toastify';
 import Discription from './Discription';
+import Cart from './Cart';
 
 
 function App() {
@@ -25,10 +26,9 @@ function App() {
         <Route path='/Mens' element={<Mens />} />
         <Route path='/Womens' element={<Womens />} />
         <Route path='/Decoration' element={<Decoration />} />
-        <Route path='/Error' element={<Error />} />
+        <Route path='/Cart' element={<Cart />} />
         <Route path='/Empty' element={<Empty />} />
         <Route path='/single-product/:id' element={<Discription />} />
-
       </Routes>
       <Footer />
 

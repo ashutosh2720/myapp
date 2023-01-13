@@ -87,6 +87,10 @@ nav {
   display: none;
 }
 
+.cart-icon {
+  color: white;
+}
+
 .navigation {
   margin-top: 0px;
   position: sticky;

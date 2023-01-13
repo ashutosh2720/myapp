@@ -1,16 +1,21 @@
 import { LineAxisOutlined } from '@mui/icons-material';
 import React, { useEffect } from 'react'
 import { useState } from 'react';
-import { useParams } from 'react-router-dom'
+import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import '../CSS/Discription.css'
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import PercentIcon from '@mui/icons-material/Percent';
 import DiscountIcon from '@mui/icons-material/Discount';
+import { useGlobalCart } from '../context/cart-context';
 
 
 export default function Discription() {
 
     const [productDetail, setProductDetail] = useState();
+
+    const { cartArray, addToCart } = useGlobalCart();
+
+    const navigate = useNavigate();
 
     const { id } = useParams();
 
@@ -92,11 +97,20 @@ export default function Discription() {
                             </div>
                         </div>
 
+                        {
+                            cartArray.includes(productDetail.id) ?
+                                <button className='bn53' onClick={() => navigate('/cart')}>Go To Cart</button> :
+                                <button className='bn53' onClick={() => addToCart(productDetail.id)}>add to cart</button>
+
+                        }
+
 
                     </div>
 
                 </div>
+
             </div>
+
             <hr />
 
         </>
