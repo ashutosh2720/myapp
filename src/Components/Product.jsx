@@ -25,7 +25,7 @@ const Product = ({ category, title }) => {
 
     return (
         <>
-            <div className="deal"><h1>{title}</h1></div>
+            {/* <div className="deal"><h1>{title}</h1></div> */}
 
             <div className="items">
                 {
