@@ -39,7 +39,7 @@ export default function Menu({ menuFunction }) {
                     </div>
                     <div className="order">
                         <ul>
-                            <h2>Order</h2>
+                            <h2>Order</h2><br /><br />
                             <li onClick={menuFunction}><ViewListIcon />Order Summary</li>
                             <li onClick={menuFunction}><AssignmentReturnIcon />Return</li>
                             <li onClick={menuFunction}><ViewModuleIcon />My Order</li>
@@ -50,7 +50,7 @@ export default function Menu({ menuFunction }) {
 
                     <div className="payment">
                         <ul>
-                            <h2>Payments</h2>
+                            <h2>Payments</h2><br /><br />
                             <li onClick={menuFunction}><PaymentIcon />Payment History</li>
                             <li onClick={menuFunction}><AccountBalanceWalletIcon />Payment Refund</li>
                         </ul>
@@ -58,7 +58,7 @@ export default function Menu({ menuFunction }) {
 
                     <div className="hellp">
                         <ul>
-                            <h2>Help & Setting</h2>
+                            <h2>Help & Setting</h2><br /><br />
                             <li onClick={menuFunction}><ManageAccountsIcon />My Account</li>
                             <li onClick={menuFunction}><SupportAgentIcon />Costumer Support</li>
                             {

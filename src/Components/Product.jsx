@@ -49,7 +49,7 @@ const Product = ({ category, title }) => {
                         <div className="">Loading</div>
 
                 }
-                <div className="all"><h3>view all</h3></div>
+                {/* <div className="all"><h4>view all</h4></div> */}
             </div>
 
         </>
