@@ -38,8 +38,8 @@ const Product = ({ category, title }) => {
                                             <img src={val.thumbnail} alt="" />
                                         </div>
                                         <div className="ind-item">
-                                            <p>{val.price}</p>
                                             <h4>{val.title.slice(0, 14)}...</h4>
+                                            <h4>&#8377;1{val.price}</h4>
 
                                         </div>
                                     </div>

@@ -95,13 +95,13 @@ export default function Discription() {
                             </div>
 
                         </div>
-                        <div className="btn"> {
+                        <div className="btn-1"> {
                             cartArray.includes(productDetail.id) ?
-                                <button className='button-92' onClick={() => navigate('/cart')}>Go To Cart</button> :
-                                <button className='button-92' onClick={() => addToCart(productDetail.id)}>add to cart</button>
+                                <button className='button-66' onClick={() => navigate('/cart')}>Go To Cart</button> :
+                                <button className='button-66' onClick={() => addToCart(productDetail.id)}>Add to cart</button>
 
                         }
-                            <button className='button-92'>add to wishlist</button>
+                            <button className='button-66'>Add to wishlist</button>
                         </div>
 
                     </div>

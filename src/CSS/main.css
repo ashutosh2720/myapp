@@ -50,14 +50,15 @@ body::-webkit-scrollbar {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
+    padding-bottom: 10px;
     color: #0C2340;
 
 }
 
 .product-img {
     border-radius: 5px;
-    height: 105px;
+    height: 165px;
     width: 200px;
     display: flex;
     justify-content: center;

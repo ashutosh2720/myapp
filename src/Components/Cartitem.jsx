@@ -27,13 +27,13 @@ const Cartitem = ({ cartId }) => {
         cartProduct &&
         <>
             <div className="cart-item">
-                <div className="item1">
+                {/* <div className="item1">
                     <div className="img ">Price</div>
                     <div className="tile ">Title</div>
                     <div className="quantity ">Quantity</div>
                     <div className="price">Price</div>
                     <div className="delete ">Delete</div>
-                </div>
+                </div> */}
 
                 <div className="item2">
                     <div className="img "><img src={cartProduct.thumbnail} alt="" /></div>
@@ -46,7 +46,7 @@ const Cartitem = ({ cartId }) => {
                         <option value="5">5</option>
                         <option value="6">6</option>
                     </select></div>
-                    <div className="price ">{cartProduct.price}</div>
+                    <div className="price ">&#8377;1{cartProduct.price}</div>
                     <div className="delete" onClick={() => deleteCart(cartProduct.id)}><DeleteIcon /></div>
                 </div>
 
