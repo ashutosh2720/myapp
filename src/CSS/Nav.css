@@ -11,8 +11,8 @@ nav {
   border-bottom: 2px solid black;
   z-index: 3;
   font-family: 'Playfair Display', serif;
-
-
+  position: sticky;
+  top: -60px
 }
 
 .nav-left {
@@ -94,7 +94,7 @@ nav {
 .navigation {
   margin-top: 0px;
   position: sticky;
-  top: 54px;
+  top: 0px;
   background-color: #0C2340;
   padding-top: 0px;
   z-index: 5;
