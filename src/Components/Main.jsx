@@ -71,7 +71,7 @@ export default function Main() {
                 category='mens-watches'
                 title='Mens Watches'
             />
-            <Mens />
+
 
 
 

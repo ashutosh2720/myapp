@@ -61,10 +61,8 @@ export default function Discription() {
 
                     </div>
 
-
-
-
                 </div>
+
 
                 <div className="right-dis">
                     <div className="dis">
@@ -95,15 +93,16 @@ export default function Discription() {
                                     Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹1000*
                                     Know More</h4>
                             </div>
-                        </div>
 
-                        {
+                        </div>
+                        <div className="btn"> {
                             cartArray.includes(productDetail.id) ?
-                                <button className='bn53' onClick={() => navigate('/cart')}>Go To Cart</button> :
-                                <button className='bn53' onClick={() => addToCart(productDetail.id)}>add to cart</button>
+                                <button className='button-92' onClick={() => navigate('/cart')}>Go To Cart</button> :
+                                <button className='button-92' onClick={() => addToCart(productDetail.id)}>add to cart</button>
 
                         }
-
+                            <button className='button-92'>add to wishlist</button>
+                        </div>
 
                     </div>
 
