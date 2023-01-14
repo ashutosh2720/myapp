@@ -71,8 +71,8 @@ export default function Discription() {
                             <h1>{productDetail.title}</h1>
                             <h3>Brand  :  {productDetail.brand}</h3>
                             <h4>Description     :   {productDetail.description}</h4>
-                            <h3>Deal of the day</h3>
-                            <h3>&#x20B9;{productDetail.price}/-</h3>
+                            <h2>Deal of the day</h2>
+                            <span><s><h3>1167</h3></s><h1>&#x20B9;1{productDetail.price}/-</h1></span>
 
 
                         </div>

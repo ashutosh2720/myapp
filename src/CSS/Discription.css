@@ -83,6 +83,10 @@
     padding: 50px;
 }
 
+.title span {
+    color: green;
+}
+
 .cart {
     display: flex;
     display: flex;
