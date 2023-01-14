@@ -1,5 +1,5 @@
 form {
-    background-image: url('https://d27jswm5an3efw.cloudfront.net/app/uploads/2019/10/image-processing-2.jpg');
+
     display: flex;
     justify-content: center;
     background-repeat: no-repeat;
@@ -9,10 +9,10 @@ form {
     top: 0; */
     width: 100vw;
     height: 80vh;
-    /* background-color: rgb(9, 35, 67, .9); */
+    background-color: rgb(9, 35, 67, .9);
     opacity: 100%;
     z-index: 10000000;
-    color: white;
+    color: black
 }
 
 .sign {
@@ -20,9 +20,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: ;
-
+    color: black;
     height: 80vh;
     width: 100vw;
     box-shadow: rgb(93, 129, 160) 3px 3px 700px 0px inset, rgba(219, 202, 202, 0.5) -3px -3px 6px 1px inset;

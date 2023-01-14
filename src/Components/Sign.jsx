@@ -44,8 +44,8 @@ export default function Sign() {
                     <label htmlFor="">Password</label>
                     <input type="password" placeholder="Enter password" value={input.password} onChange={setInputPassword} /><br />
                     <h5>Forget Password <a href=""> -&gt;click here</a></h5><br />
-                    <button className="bn53" onClick={setDummyData}>Apply Dummy</button><br />
-                    <button className="bn53" onClick={loginAction}>Login</button><br />
+                    <button className="button-66" onClick={setDummyData}>Apply Dummy</button><br />
+                    <button className="button-66" onClick={loginAction}>Login</button><br />
                     <h5>Create new acount <a href=""> -&gt;click here</a></h5><br /><br />
                     <div className="log-with">
                         <div> login with</div>

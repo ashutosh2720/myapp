@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600;1,700&family=Playfair+Display:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;1,600;1,700&family=Playfair+Display:wght@400;800&display=swap');
+
 
 
 * {
@@ -9,8 +10,46 @@
 
 body {
   font-family: 'Crimson Text', serif;
-  font-size: 1.3rem;
-  font-synthesis: style;
+  font-size: 1.2rem;
+  font-weight: bolder;
 
 
+}
+
+.button-66 {
+  background-color: rgb(245, 160, 4);
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1, 60, 136, .5) 0 -1px 3px 0 inset, rgba(0, 44, 97, .1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.button-66:hover {
+  background-color: #065dd8;
+  transform: translateY(-4px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
 }
