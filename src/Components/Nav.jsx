@@ -18,6 +18,7 @@ import { NavLink } from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
 import Womens from "./Womens";
 import Error from "./Error";
+import MenuIcon from '@mui/icons-material/Menu';
 import { useGlobalCart } from "../context/cart-context";
 
 
@@ -54,17 +55,16 @@ function Navbar() {
 
       }
       <nav>
-        <div className="nav-left">
-          <div className="img-name" onClick={menuFunction}>
-            <MenuOpenOutlinedIcon />
-            <h3>Menu</h3>
-          </div>
 
-        </div>
         <div className="nav-mid">
           <img src={logo} alt="" />
 
         </div>
+
+        <div className="search">
+          <input type="search" name="" id="" placeholder="search here..." />
+        </div>
+
 
         <div className="nav-right">
 
@@ -98,9 +98,15 @@ function Navbar() {
 
       </nav>
 
+
+
       <div className="navigation">
         <ul>
 
+          <div className="img-name" onClick={menuFunction}>
+            <MenuIcon className="menu-icon" />
+            Menu
+          </div>
           <div className="home"><li><NavLink to='/'><HomeIcon />Home
           </NavLink></li></div>
           <div className="ments-wear"><li><NavLink to='/Mens'>

@@ -185,8 +185,6 @@ body::-webkit-scrollbar {
         min-height: auto;
     }
 
-    .navigation {
-        top: 35px;
-    }
+
 
 }
