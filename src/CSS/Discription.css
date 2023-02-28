@@ -49,7 +49,7 @@
 
 .right-dis {
     max-width: 50vw;
-    /* border-left: .5px dashed black; */
+    border-left: .5px solid black;
 
 
 }
@@ -149,6 +149,8 @@
 
     .right-dis {
         max-width: 50vw;
+        border: none;
+
 
     }
 
@@ -177,7 +179,7 @@
 
     .right-dis .dis {
         width: 100vw;
-        margin-left: -100px;
+        margin-left: -90px;
         font-size: 1.5rem;
 
     }
@@ -192,4 +194,10 @@
 
     .button-66 {}
 
+}
+
+@media screen and (max-width:1200px) and (min-width:768px) {
+    .main-img img {
+        width: 300px;
+    }
 }
