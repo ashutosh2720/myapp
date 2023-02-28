@@ -24,16 +24,15 @@ export default function Discription() {
         let res = await fetch(`https://dummyjson.com/products/${id}`)
         let data = await res.json();
         setProductDetail(data);
-        console.log(data);
     }
 
     useEffect(() => {
-
         getProductDetail(id);
     }, [])
+
+
     return (
         productDetail
-
         &&
         <>
             <div className="header">
@@ -97,7 +96,7 @@ export default function Discription() {
                         </div>
                         <div className="btn-1"> {
                             cartArray.includes(productDetail.id) ?
-                                <button className='button-66' onClick={() => navigate('/cart')}>Go To Cart</button> :
+                                <button className='button-66' onClick={() => { navigate('/Cart') }} >Go To Cart</button> :
                                 <button className='button-66' onClick={() => addToCart(productDetail.id)}>Add to cart</button>
 
                         }
@@ -105,6 +104,8 @@ export default function Discription() {
                         </div>
 
                     </div>
+
+
 
                 </div>
 

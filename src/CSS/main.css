@@ -14,18 +14,17 @@ body::-webkit-scrollbar {
 
 .deal {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+
 }
 
 .deal h1 {
-    background-color: #0C2340;
+    background-color: red;
+    /* background-color: #0C2340;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
-    font-size: 1.3rem;
+    font-size: 1.3rem; */
 }
 
 

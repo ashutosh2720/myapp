@@ -15,12 +15,18 @@ const Cartitem = ({ cartId }) => {
         let res = await fetch(`https://dummyjson.com/products/${id}`)
         let data = await res.json();
         setCartProduct(data);
-        console.log(data);
+        // console.log(data);
     }
+
+    // useEffect(() => {
+    //     getProductDetail(cartId);
+    // }, [])
 
     useEffect(() => {
         getProductDetail(cartId);
     }, [cartArray])
+
+
 
     return (
 
@@ -47,6 +53,7 @@ const Cartitem = ({ cartId }) => {
                         <option value="6">6</option>
                     </select></div>
                     <div className="price ">&#8377;1{cartProduct.price}</div>
+
                     <div className="delete" onClick={() => deleteCart(cartProduct.id)}><DeleteIcon /></div>
                 </div>
 
@@ -55,7 +62,7 @@ const Cartitem = ({ cartId }) => {
             </div>
         </>
 
-
+        // onClick={() => deleteCart(cartProduct.id)}
     )
 }
 

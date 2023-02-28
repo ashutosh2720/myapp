@@ -35,6 +35,7 @@ const LoginProvider = ({ children }) => {
         let res = await fetch(`https://dummyjson.com/users/${userId}`);
         let data = await res.json()
         setUserDetail(data)
+        console.log(data)
     }
 
     useEffect(() => {
