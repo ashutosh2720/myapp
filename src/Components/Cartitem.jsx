@@ -15,7 +15,7 @@ const Cartitem = ({ cartId }) => {
         let res = await fetch(`https://dummyjson.com/products/${id}`)
         let data = await res.json();
         setCartProduct(data);
-        // console.log(data);
+        console.log(data);
     }
 
     // useEffect(() => {
