@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import '../CSS/Nav.css';
+// import '../CSS/Nav.css';
 
 
 

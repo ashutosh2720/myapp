@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import logo from '../Images/anix4.png'
+import logo from '../../Images/anix4.png'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import '../CSS/Nav.css';
-import Menu from "./Menu";
-import Sign from './Sign'
+import './Nav.css'
+import Menu from "../Menu";
+import Sign from '../Sign'
+import PersonAddAltSharpIcon from '@mui/icons-material/PersonAddAltSharp';
 import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
 import Man2Icon from '@mui/icons-material/Man2';
 import IceSkatingIcon from '@mui/icons-material/IceSkating';
+import FavoriteSharpIcon from '@mui/icons-material/FavoriteSharp';
 import WomanIcon from '@mui/icons-material/Woman';
 import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 import MenuOpenOutlinedIcon from '@mui/icons-material/MenuOpenOutlined';
@@ -16,10 +18,10 @@ import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { NavLink } from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
-import Womens from "./Womens";
-import Error from "./Error";
+import Womens from "../Womens";
+import Error from "../Error";
 import MenuIcon from '@mui/icons-material/Menu';
-import { useGlobalCart } from "../context/cart-context";
+import { useGlobalCart } from "../../context/cart-context";
 
 
 function Navbar() {
@@ -57,7 +59,8 @@ function Navbar() {
       <nav>
 
         <div className="nav-mid">
-          <img src={logo} alt="" />
+          <ShoppingCartOutlinedIcon fontSize="large" /> <img src={logo} alt="" />
+
 
         </div>
 
@@ -73,14 +76,14 @@ function Navbar() {
 
             <div className="img4" >
               <NavLink to='/sign'>
-                <PersonAddIcon />
+                <PersonAddAltSharpIcon />
               </NavLink>
 
             </div>
 
 
             <div className="img4">
-              <NavLink to='/Error'><ShoppingBagIcon /></NavLink>
+              <NavLink to='/Error'><FavoriteSharpIcon /></NavLink>
             </div>
 
             <div className="img3">

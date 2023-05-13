@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import '../CSS/sign.css'
-import Nav from './Nav';
-import Footer from "./Footer";
+
 import { useGlobalLogin } from "../context/login-context";
 import { useNavigate } from "react-router-dom";
 

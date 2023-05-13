@@ -1,8 +1,8 @@
 import React from 'react';
 // import '../CSS/App.css'
-import Navbar from './Nav';
+import Navbar from './Navbar/Nav';
 import Main from './Main';
-import Footer from './Footer';
+import Footer from "./footer/Footer";
 import Sign from './Sign'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Mens from './Mens';
