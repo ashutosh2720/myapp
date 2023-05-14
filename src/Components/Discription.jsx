@@ -4,7 +4,10 @@ import { useState } from 'react';
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import '../CSS/Discription.css'
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import PercentIcon from '@mui/icons-material/Percent';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import DiscountIcon from '@mui/icons-material/Discount';
 import { useGlobalCart } from '../context/cart-context';
 
@@ -98,11 +101,11 @@ export default function Discription() {
                         </div>
                         <div className="btn-1"> {
                             cartArray.includes(productDetail.id) ?
-                                <button className='button-66' onClick={() => { navigate('/Cart') }} >Go To Cart</button> :
-                                <button className='button-66' onClick={() => addToCart(productDetail.id)}>Add to cart</button>
+                                <button className='button-52' onClick={() => { navigate('/Cart') }} > <ShoppingCartCheckoutIcon fontSize='large' /> Go To Cart</button> :
+                                <button className='button-52' onClick={() => addToCart(productDetail.id)}> <AddShoppingCartIcon fontSize='large' />  <b>Add To Cart</b></button>
 
                         }
-                            <button className='button-66'>Add to wishlist</button>
+                            <button className='button-52'> <FavoriteBorderIcon fontSize='large' /> Add to wishlist</button>
                         </div>
 
                     </div>
