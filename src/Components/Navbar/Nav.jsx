@@ -9,8 +9,8 @@ import PersonAddAltIcon from '@mui/icons-material/PersonAddAlt';
 import Man2Icon from '@mui/icons-material/Man2';
 import IceSkatingIcon from '@mui/icons-material/IceSkating';
 import FavoriteSharpIcon from '@mui/icons-material/FavoriteSharp';
-import WomanIcon from '@mui/icons-material/Woman';
-import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
+import Woman2Icon from '@mui/icons-material/Woman2';
+import ChairIcon from '@mui/icons-material/Chair';
 import MenuOpenOutlinedIcon from '@mui/icons-material/MenuOpenOutlined';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
@@ -113,14 +113,14 @@ function Navbar() {
           <div className="home"><li><NavLink to='/'><HomeIcon />Home
           </NavLink></li></div>
           <div className="ments-wear"><li><NavLink to='/Mens'>
-            <Man2Icon />Mens wear
+            <Man2Icon />Mens
 
           </NavLink></li></div>
 
           <div className="womens-saare"><li><NavLink to='/Womens ' className={isActive =>
             !isActive ? " active" : "inactive"
-          }><WomanIcon />Womens wear</NavLink></li></div>
-          <div className="home-appliance"> <li><NavLink to='/Decoration'><SoupKitchenIcon />Home & Appliance</NavLink></li></div>
+          }><Woman2Icon fontSize="medium" />Womens </NavLink></li></div>
+          <div className="home-appliance"> <li><NavLink to='/Decoration'><ChairIcon fontSize="medium" /> Decoration</NavLink></li></div>
         </ul>
       </div>
 

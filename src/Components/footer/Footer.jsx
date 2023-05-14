@@ -1,6 +1,7 @@
 import React from "react";
 import './Footer.css'
-import logo from '../../Images/ecom2.png'
+import logo from '../../Images/anix4.png'
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 export default function Footer() {
 
@@ -52,7 +53,7 @@ export default function Footer() {
 
             </div>
             <div className="copy">
-                <h4> &#169;Copyright {date} ANIX CART</h4><img src={logo} alt="" />
+                <h4> &#169;Copyright {date}</h4>  <ShoppingCartOutlinedIcon fontSize="large" />  <img src={logo} alt="" />
             </div>
 
         </>
